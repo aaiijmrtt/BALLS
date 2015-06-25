@@ -2,21 +2,17 @@
 
 Balls: Exploring PyGame
 
-The code in this repository presents a different take on the classic Paddle Ball
-Game. The aim is to increase your Wealth while making sure you do not run out of
-Health. Both go up every time a ball hits the paddle. The length of the paddle
-and your Health shrink with time. You may multiply the number of balls by
-clicking the mouse or hitting the spacebar: this will increase both the rate at
-which the your Wealth increases, as well as the rate at which your Health
-decreases.
+The code in this repository presents a variation of the classic Paddle Ball
+game. The aim is to increase your Wealth while making sure you do not run out of
+Health. Both change every time a Ball hits the Paddle. The length of the Paddle
+and your Health changes with time. You may multiply the number of Balls by
+clicking the mouse or hitting the spacebar. This alters the rate at which your
+Health and Wealth change. Be warned: finding a balance is tricky.
 
-**Python Sources**:
+**Instructions**:
 
-1. **balls.py**: the game
-
-**Insructions**:
-
-1. **Playing the Game**: $python balls.py
+1. **Setting Executable Bit**: $chmod +x balls.py
+1. **Executing**: $./balls.py
 
 **Note**:
 
